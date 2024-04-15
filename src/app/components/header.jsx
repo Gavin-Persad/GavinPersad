@@ -4,7 +4,7 @@ import styles from './header.module.css';
 export default function Header() {
 	return <header className={styles.head}>
 		<div className="logoContainer">
-			<img src=".../public\IMGs\_5315809a-b981-4f34-8ec7-a581b8980dfa.jpg" alt="Gavin Persad" />
+			<img src="public/IMGs/_5315809a-b981-4f34-8ec7-a581b8980dfa.jpg" alt="Gavin Persad" />
 		</div>
 		<div className="linksContainer">
 			<ul>

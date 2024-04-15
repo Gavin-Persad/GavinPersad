@@ -1,0 +1,15 @@
+body {
+    background-color: lightgrey;
+}
+
+.head {
+    color: red;
+}
+
+.title {
+    color: orange;
+}
+
+.foot {
+    color: yellow;
+}

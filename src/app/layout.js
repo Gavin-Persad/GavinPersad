@@ -1,4 +1,5 @@
 import Header from './components/header.js';
+import React from 'react';
 import Footer from './components/footer.js';
 import { Inter } from 'next/font/google';
 import './globals.css';

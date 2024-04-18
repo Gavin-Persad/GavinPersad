@@ -9,7 +9,7 @@ export default function Header() {
 		<div className="linksContainer">
 			<ul>
 				<li>
-					<a href="/">About Me<a>
+<a href="/">About Me<a>
 				</li>
 				<li>
 					<a href="/about">Languages</a>

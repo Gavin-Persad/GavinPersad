@@ -79,6 +79,19 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+          name: Checkout code
+        uses: actions/checkout@v2
+      - name: Deploy public folders
+        run: |
+          # Copy your public folders to the desired location
+          cp -r public/* docs/
+        # Commit and push the changes
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Update public folders"
+          git push
+          
 
   # Deployment job
   deploy:

@@ -10,6 +10,11 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx prettier --write ."
+    }
+  },
   "dependencies": {
     "express": "^4.19.2",
     "next": "14.2.0",
